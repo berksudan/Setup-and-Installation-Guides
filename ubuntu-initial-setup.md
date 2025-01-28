@@ -62,6 +62,7 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
   ```bash
   sudo snap install pycharm-community --classic
   ```
+  - In PyCharm, change the "Toggle Case" shortcut from "Ctrl+Shift+U" to "Alt+Shift+U", see: https://stackoverflow.com/a/51160081
 - **Okular - PDF Editor**: Install via APT:
   ```bash
   sudo apt install okular
