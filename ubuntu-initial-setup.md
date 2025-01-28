@@ -34,6 +34,7 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
   sudo apt install flameshot
   ```
   - Then, set the `Print Screen` shortcut: `sh -c "flameshot gui && sleep 3 && pkill flameshot"`
+
   - Configure the screenshot folder and import the following configuration as `flameshot.conf`:
     ```ini
     [General]
