@@ -69,11 +69,11 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
 
 ## Hibernation Setup and Power Management
 
-- Enable hibernation following this guide:
+- Enable hibernation (set your swap as 1.9*ram) following this guide:
   - [YouTube Tutorial](https://youtu.be/qJDJHOaM6FE?si=jDcgtN3RAmrs2Q73)
   - [Enable Hibernate on Ubuntu 21.10](https://ubuntuhandbook.org/index.php/2021/08/enable-hibernate-ubuntu-21-10/)
 - Configure hibernation for lid close behavior: [Change Lid Close Behavior on Ubuntu](https://ubuntuhandbook.org/index.php/2020/05/lid-close-behavior-ubuntu-20-04/)
-
+- Change swappiness using here: https://askubuntu.com/questions/103915/how-do-i-configure-swappiness
 ## Additional Software and Configurations
 
 - **OpenAI Sessions**: Set up and pin the sessions in the browser.
