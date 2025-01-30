@@ -68,6 +68,10 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
   ```bash
   sudo apt install okular
   ```
+- **VLC Media Player:** Install via Snap:
+  ```bash
+  sudo snap install vlc
+  ```
 
 ## Hibernation Setup and Power Management
 
