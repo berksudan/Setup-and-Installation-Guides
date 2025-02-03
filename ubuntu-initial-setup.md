@@ -6,7 +6,7 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
 
 - **Install Sublime Text Editor:** Install Sublime via Snap and add it to the dock.
   ```bash
-  sudo snap install sublime-text
+  sudo snap install sublime-text --classic
   ```
 - Run system updates and package installations:
   ```bash
