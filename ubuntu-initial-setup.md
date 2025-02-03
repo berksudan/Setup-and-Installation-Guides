@@ -61,7 +61,11 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
   ```bash
   sudo apt install gpaste
   ```
-  - Increase gpaste capacities to very high (if you have enough disk space), such as `Max history size`=`10000`, `Max memory usage`=`16383 (MB)` 
+  - Increase gpaste capacities to very high (if you have enough disk space), such as `Max history size`=`10000`, `Max memory usage`=`16383 (MB)`
+  - Run: `sudo apt install gnome-shell-extension-gpaste`
+  - Log out and log in (on Wayland)
+  - Run: `sudo apt install gnome-shell-extension-prefs`
+  - Next, launch `Gnome Extensions` app, scroll down and turn on the slider icon to enable GPaste indicator
 - **PyCharm**: Install via Snap:
   ```bash
   sudo snap install pycharm-community --classic
