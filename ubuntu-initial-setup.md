@@ -17,6 +17,7 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
 - **Apply firmware updates** through Ubuntu's Software Updater and restart.
 - **Disable system sounds** in Ubuntu Settings.
 - Configure trash settings to automatically delete files after **30 days**.
+- Enable Fingerprint Log in (if possible)
 
 ## Applications Installation
 
