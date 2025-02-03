@@ -37,7 +37,7 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
   ```
   - Then, set the `Print Screen` shortcut: `sh -c "flameshot gui && sleep 3 && pkill flameshot"`
 
-  - Configure the screenshot folder and import the following configuration as `flameshot.conf`:
+  - Configure the screenshot folder and import the following configuration as `flameshot.conf`(Replace `<USER>` with your username):
     ```ini
     [General]
     autoCloseIdleDaemon=true
@@ -45,11 +45,12 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
     contrastOpacity=188
     drawColor=#ff0000
     drawThickness=4
+    filenamePattern=%F_%T
     saveAfterCopy=true
     savePath=/home/<USER>/Pictures/Screenshots
     savePathFixed=true
     ```
-  - Replace `<USER>` with your username.
+
 - **Vim**: Install via APT:
   ```bash
   sudo apt install vim
