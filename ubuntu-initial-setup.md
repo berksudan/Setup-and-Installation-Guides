@@ -15,7 +15,8 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
   sudo apt install -y build-essential libpq-dev python3-dev
   ```
 - **Apply firmware updates** through Ubuntu's Software Updater and restart.
-- **Disable system sounds** in Ubuntu Settings.
+- **Disable system sounds** in Ubuntu Sound Settings.
+- **Set Overamplification** in Ubuntu Sound Settings.
 - Configure trash settings to automatically delete files after **30 days**.
 - Enable Fingerprint Log in (if possible)
 
