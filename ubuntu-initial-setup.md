@@ -8,6 +8,7 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
   ```bash
   sudo snap install sublime-text --classic
   ```
+    - Add this to Preferences: `"save_on_focus_lost": true,`
 - Run system updates and package installations:
   ```bash
   sudo snap refresh
