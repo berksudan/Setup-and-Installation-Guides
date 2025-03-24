@@ -46,7 +46,7 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
     contrastOpacity=188
     drawColor=#ff0000
     drawThickness=4
-    filenamePattern=%F_%T
+    filenamePattern=Screenshot_Flameshot_%F_%T
     saveAfterCopy=true
     savePath=/home/<USER>/Pictures/Screenshots
     savePathFixed=true
