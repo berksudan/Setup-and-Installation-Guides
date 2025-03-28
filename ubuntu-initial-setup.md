@@ -21,13 +21,16 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
 - Configure trash settings to automatically delete files after **30 days**.
 - Enable Fingerprint Log in (if possible)
 
+- If you don't want to enter the login keyring password again after a restart, go to login keyring settings and set its
+  password as blank
+
 ## Applications Installation
 
 - **Spotify**: Install via Snap.
   ```bash
   sudo snap install spotify
   ```
-  - Download all major playlists for offline listening.
+    - Download all major playlists for offline listening.
 - **Pinta**: Install via Snap.
   ```bash
   sudo snap install pinta
@@ -36,21 +39,22 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
   ```bash
   sudo apt install flameshot
   ```
-  - Then, set the `Print Screen` shortcut: `sh -c "flameshot gui && sleep 3 && pkill flameshot"`
+    - Then, set the `Print Screen` shortcut: `sh -c "flameshot gui && sleep 3 && pkill flameshot"`
 
-  - Configure the screenshot folder and import the following configuration as `flameshot.conf`(Replace `<USER>` with your username):
-    ```ini
-    [General]
-    autoCloseIdleDaemon=true
-    checkForUpdates=true
-    contrastOpacity=188
-    drawColor=#ff0000
-    drawThickness=4
-    filenamePattern=Screenshot_Flameshot_%F_%T
-    saveAfterCopy=true
-    savePath=/home/<USER>/Pictures/Screenshots
-    savePathFixed=true
-    ```
+    - Configure the screenshot folder and import the following configuration as `flameshot.conf`(Replace `<USER>` with
+      your username):
+      ```ini
+      [General]
+      autoCloseIdleDaemon=true
+      checkForUpdates=true
+      contrastOpacity=188
+      drawColor=#ff0000
+      drawThickness=4
+      filenamePattern=Screenshot_Flameshot_%F_%T
+      saveAfterCopy=true
+      savePath=/home/<USER>/Pictures/Screenshots
+      savePathFixed=true
+      ```
 
 - **Vim**: Install via APT:
   ```bash
@@ -62,16 +66,18 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
   ```bash
   sudo apt install gpaste
   ```
-  - Increase gpaste capacities to very high (if you have enough disk space), such as `Max history size`=`10000`, `Max memory usage`=`16383 (MB)`
-  - Run: `sudo apt install gnome-shell-extension-gpaste`
-  - Log out and log in (on Wayland)
-  - Run: `sudo apt install gnome-shell-extension-prefs`
-  - Next, launch `Gnome Extensions` app, scroll down and turn on the slider icon to enable GPaste indicator
+    - Increase gpaste capacities to very high (if you have enough disk space), such as `Max history size`=`10000`,
+      `Max memory usage`=`16383 (MB)`
+    - Run: `sudo apt install gnome-shell-extension-gpaste`
+    - Log out and log in (on Wayland)
+    - Run: `sudo apt install gnome-shell-extension-prefs`
+    - Next, launch `Gnome Extensions` app, scroll down and turn on the slider icon to enable GPaste indicator
 - **PyCharm**: Install via Snap:
   ```bash
   sudo snap install pycharm-community --classic
   ```
-  - In PyCharm, change the "Toggle Case" shortcut from "Ctrl+Shift+U" to "Alt+Shift+U", see: https://stackoverflow.com/a/51160081
+    - In PyCharm, change the "Toggle Case" shortcut from "Ctrl+Shift+U" to "Alt+Shift+U",
+      see: https://stackoverflow.com/a/51160081
 - **Okular - PDF Editor**: Install via APT:
   ```bash
   sudo apt install okular
@@ -84,10 +90,12 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
 ## Hibernation Setup and Power Management
 
 - Enable hibernation (set your swap as 1.9*ram) following this guide:
-  - [YouTube Tutorial](https://youtu.be/qJDJHOaM6FE?si=jDcgtN3RAmrs2Q73)
-  - [Enable Hibernate on Ubuntu 21.10](https://ubuntuhandbook.org/index.php/2021/08/enable-hibernate-ubuntu-21-10/)
-- Configure hibernation for lid close behavior: [Change Lid Close Behavior on Ubuntu](https://ubuntuhandbook.org/index.php/2020/05/lid-close-behavior-ubuntu-20-04/)
+    - [YouTube Tutorial](https://youtu.be/qJDJHOaM6FE?si=jDcgtN3RAmrs2Q73)
+    - [Enable Hibernate on Ubuntu 21.10](https://ubuntuhandbook.org/index.php/2021/08/enable-hibernate-ubuntu-21-10/)
+- Configure hibernation for lid close
+  behavior: [Change Lid Close Behavior on Ubuntu](https://ubuntuhandbook.org/index.php/2020/05/lid-close-behavior-ubuntu-20-04/)
 - Change swappiness using here: https://askubuntu.com/questions/103915/how-do-i-configure-swappiness
+
 ## Additional Software and Configurations
 
 - **OpenAI Sessions**: Set up and pin the sessions in the browser.
