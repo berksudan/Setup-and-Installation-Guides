@@ -86,6 +86,10 @@ This guide outlines the essential steps to set up a fresh Ubuntu installation.
   ```bash
   sudo snap install vlc
   ```
+- **Blueman - Bluetooth Manager:**
+  ```bash
+  sudo apt install blueman
+  ```
 
 ## Hibernation Setup and Power Management
 
